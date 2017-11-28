@@ -2,9 +2,9 @@
   "name": "/r/xtrill Tools",
   "description": "Easily navigate to download pages from x/trill keys",
   "version": "1.0",
-  "permissions": ["contextMenus"],
+  "permissions": ["menus"],
   "background": {
-    "scripts": ["sample.js"]
+    "scripts": ["script.js"]
   },
   "manifest_version": 2,
   "icons": {

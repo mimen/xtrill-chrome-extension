@@ -1,4 +1,3 @@
-
 // Create a parent item and two children.
 var parent = chrome.contextMenus.create({"title": "trill - Open on...", "contexts": ["selection"]});
 var child1 = chrome.contextMenus.create({"title": "dbr.ee", "contexts": ["selection"], "parentId": parent, "onclick": openOnDbree});
